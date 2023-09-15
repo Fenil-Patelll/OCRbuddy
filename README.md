@@ -26,4 +26,15 @@ OCRbuddy's final architecture leverages various AWS cloud mechanisms to deliver 
 
 ![OCRBuddy Architecture](https://github.com/Fenil-Patelll/OCRbuddy/assets/58760354/fbcccfd0-9f4e-41da-92d4-2638f821ca58)
 
+# Delivery Model
+
+
+OCRbuddy adopts a delivery model combining PaaS (Platform as a Service) and FaaS (Function as a Service).
+
+- PaaS: The front end of OCRbuddy is hosted on AWS Elastic Beanstalk, a PaaS offering. Elastic Beanstalk abstracts away the complexities of infrastructure management, making it easier for developers to deploy and manage web applications. It provides a platform where developers can focus on application development rather than infrastructure setup.
+
+- FaaS: The backend OCR processing is handled by AWS Lambda, a FaaS service. Lambda allows developers to run code in response to events without managing servers. In this case, Lambda functions are used to process OCR requests triggered by users through API Gateway. FaaS enables serverless computing, where developers can focus on writing code in the form of functions executed on demand. Also, I had the flexibility to increase the timeout period of the process as the image extraction is a heavy task; I have to increase the lambda function timeout period.
+
+In conclusion, OCRbuddy's deployment model is based on the Public Cloud, specifically utilizing AWS services. The delivery model combines PaaS (Elastic Beanstalk) for the front end and FaaS (Lambda) for the backend OCR processing, offering benefits such as scalability, cost efficiency, and developer productivity.
+
    
