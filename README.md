@@ -23,4 +23,6 @@ OCRbuddy's final architecture leverages various AWS cloud mechanisms to deliver 
 5. AWS Simple Notification Service (SNS): Enables email notifications for users who request them. It sends PDF links to the provided email addresses; the message only goes if the user confirms the subscription.
 
 6. AWS Textract: Takes an image or PDF as input, processes the machine learning OCR, and gives the text as output, which is then used to generate the PDF.
+
+![OCRbuddy Architecture]([https://example.com/ocrbuddy-architecture.png](https://github.com/Fenil-Patelll/OCRbuddy/blob/main/OCRBuddy%20Architecture.jpg)https://github.com/Fenil-Patelll/OCRbuddy/blob/main/OCRBuddy%20Architecture.jpg)
    
