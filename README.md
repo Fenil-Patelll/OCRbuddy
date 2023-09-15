@@ -24,5 +24,5 @@ OCRbuddy's final architecture leverages various AWS cloud mechanisms to deliver 
 
 6. AWS Textract: Takes an image or PDF as input, processes the machine learning OCR, and gives the text as output, which is then used to generate the PDF.
 
-![OCRbuddy Architecture]([https://example.com/ocrbuddy-architecture.png](https://github.com/Fenil-Patelll/OCRbuddy/blob/main/OCRBuddy%20Architecture.jpg)https://github.com/Fenil-Patelll/OCRbuddy/blob/main/OCRBuddy%20Architecture.jpg)
+![OCRbuddy Architecture](OCRBuddy Architecture.jpg)
    
