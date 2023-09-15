@@ -37,4 +37,14 @@ OCRbuddy adopts a delivery model combining PaaS (Platform as a Service) and FaaS
 
 In conclusion, OCRbuddy's deployment model is based on the Public Cloud, specifically utilizing AWS services. The delivery model combines PaaS (Elastic Beanstalk) for the front end and FaaS (Lambda) for the backend OCR processing, offering benefits such as scalability, cost efficiency, and developer productivity.
 
+# Programming Languages and Code
+OCRbuddy is built using ReactJS for the front end and Node.js for the back end. ReactJS is used on the front end due to its component-based architecture, which facilitates modularity and reusability. Node.js, known for its event-driven, non-blocking I/O model, is chosen for the backend to handle asynchronous operations efficiently.
+
+The frontend code is responsible for user interactions, uploading files, and displaying results. The backend code, implemented as AWS Lambda functions, handles OCR processing, text extraction, PDF generation, and email notification.
+
+# Deployment to the Cloud
+The application is deployed to AWS using CloudFormation, which allows for infrastructure as code. The CloudFormation template defines all the AWS resources required for the application, including the Elastic Beanstalk environment, Lambda functions, API Gateway, S3 buckets, etc.
+
+Once the CloudFormation stack is created, it automatically provisions and configures the necessary resources, making the application ready for use.
+
    
